@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "harvest:google",
             "type": "node",
@@ -23,6 +24,18 @@
                 "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
             },
             "args" : [".", "grok"],
+            "outputCapture": "std"
+        },
+        {
+            "name": "harvest:grok2",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+            "windows": {
+                "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
+            },
+            "args" : [".", "grok2"],
             "outputCapture": "std"
         }
     ]

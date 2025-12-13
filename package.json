@@ -5,7 +5,8 @@
   "scripts": {
     "start": "electron .",
     "harvest:google": "electron . google",
-    "harvest:grok": "electron . grok"
+    "harvest:grok": "electron . grok",
+    "harvest:grok2": "electron . grok2"
   },
   "keywords": [],
   "author": "",
